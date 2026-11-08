@@ -1,0 +1,5 @@
+/* Show tables as raw markdown in Live Preview. The rendered table widget edits
+   each cell in its own sub-editor, which vim mode never reaches. */
+.cm-editor .cm-table-widget {
+  display: none;
+}
